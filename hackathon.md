@@ -12,7 +12,7 @@
 - **Auth:** none
 - **AI models:** gpt-5.6-luna
 - **Started:** 2026-09-21T17:42:20Z
-- **Last updated:** 2026-09-22T13:52:28Z
+- **Last updated:** 2026-09-22T14:12:02Z
 
 ## Log
 
@@ -68,3 +68,11 @@ backend to the production Convex deployment. Registered the signed AgentMail
 `message.received` webhook at `/agentmail/webhook`; the route was smoke-tested
 with a synthetic event and the configured secret header. No secret values or
 mailbox addresses are included in this log.
+
+### 2026-09-22 - 97c6f01
+Checked in the complete MOVEOS application snapshot: Convex backend, React/Vite
+frontend, acceptance tests, deployment configuration, and a names-only
+`.env.example`. The repository now contains the reproducible source for the
+schema, queries, mutations, actions, HTTP webhook, scheduled functions,
+realtime dashboard, research queue, and AgentMail integration; local secrets
+and generated deployment state remain excluded.
