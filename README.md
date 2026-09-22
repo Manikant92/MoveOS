@@ -7,7 +7,9 @@ MOVEOS is an AI-powered relocation operating system. It turns a move into a livi
 > A move is not a checklist. It is a dependency graph that keeps changing.
 
 **Live demo:** [groovy-cricket-986.convex.site](https://groovy-cricket-986.convex.site)
+
 **Convex production deployment:** `groovy-cricket-986.convex.cloud`
+
 **Hackathon:** Convex All Gas Hackathon
 
 ## The problem
